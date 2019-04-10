@@ -5,5 +5,9 @@
             app:startDestination="@id/padre_fr">
 
     <fragment android:id="@+id/padre_fr" android:name="com.example.myserietv.Padre_fr" android:label="fragment_padre_fr"
-              tools:layout="@layout/fragment_padre_fr"/>
+              tools:layout="@layout/fragment_padre_fr">
+        <action android:id="@+id/action_padre_fr_to_fragment_figlio" app:destination="@id/fragment_figlio"/>
+    </fragment>
+    <fragment android:id="@+id/fragment_figlio" android:name="com.example.myserietv.fragment_figlio"
+              android:label="fragment_figlio" tools:layout="@layout/fragment_figlio"/>
 </navigation>

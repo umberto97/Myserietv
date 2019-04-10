@@ -4,7 +4,7 @@
                                              xmlns:tools="http://schemas.android.com/tools"
                                              android:layout_width="match_parent"
                                              android:layout_height="match_parent"
-                                             tools:context=".fragment_figlio" android:id="@+id/frameLayout2">
+                                             tools:context=".Fragment_figlio" android:id="@+id/frameLayout2">
     <TextView
             android:text="Titolo"
             android:layout_width="115dp"

@@ -1,3 +1,7 @@
 package com.example.myserietv.Datamodel
 
-data class SerieTv (var titolo: String,var genere: String,var data: Int)
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
+
+@Parcelize
+data class SerieTv (var titolo: String,var genere: String,var data: Int) : Parcelable

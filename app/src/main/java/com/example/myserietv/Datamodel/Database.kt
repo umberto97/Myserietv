@@ -6,7 +6,7 @@ object Database {
     //quando viene istanziato un database esso eseguirà ciò che sta in init
     init {
         //inizialmente il database contiene una serietv
-        array_serie.add(SerieTv("The Punisher","Azione",2016))
+        for(i in 1..20)array_serie.add(SerieTv("The Punisher","Azione",2016))
     }
 
     // Restituisce l'elenco di tutte le serietv presenti

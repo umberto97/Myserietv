@@ -27,7 +27,7 @@ class Fragment_figlio : Fragment() {
             birra?.let {
                 titolo_figlio.text = it.titolo
                 genere_figlio.text = it.genere
-                data_figlio.text = String.format("%.2f", it.data)
+                data_figlio.text = String.format("%d", it.data)
             }
         }
     }

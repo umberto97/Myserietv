@@ -8,6 +8,6 @@
               tools:layout="@layout/fragment_padre_fr">
         <action android:id="@+id/action_padre_fr_to_fragment_figlio" app:destination="@id/fragment_figlio"/>
     </fragment>
-    <fragment android:id="@+id/fragment_figlio" android:name="com.example.myserietv.fragment_figlio"
+    <fragment android:id="@+id/fragment_figlio" android:name="com.example.myserietv.Fragment_figlio"
               android:label="fragment_figlio" tools:layout="@layout/fragment_figlio"/>
 </navigation>
